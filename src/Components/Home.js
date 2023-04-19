@@ -5,6 +5,8 @@ import BookForm from './BookForm'
 import Feature from './Feature'
 import CarFleet from './CarFleet'
 import WhyUs from './WhyUs'
+import Testimonials from './Testimonials'
+import Faq from './Faq'
 const Home = () => {
   return (
     <div className=' pt-28 '>
@@ -13,6 +15,8 @@ const Home = () => {
      <Feature/>
      <CarFleet/>
      <WhyUs/>
+     <Faq/>
+     <Testimonials/>
     </div>
   )
 }
