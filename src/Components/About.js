@@ -5,7 +5,7 @@ import Feature from './Feature'
 const About = () => {
   return (
     <div className='mt-40'>
-      <div className="abtContainer">
+      <div className="abtContainer container">
         <section className="text-gray-600 body-font">
           <div className="container px-5 py-24 mx-auto flex flex-wrap">
             <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
@@ -16,7 +16,7 @@ const About = () => {
                 <div className="abtContent">
                   <h1 className='text-2xl font-bold text-gray-800'>About Company</h1>
                   <h1 className='md:text-5xl text-4xl font-bold text-gray-800 my-4'>You start the engine and your adventure begins</h1>
-                  <p className='text-xl text-gray-600 my-4'>Certain but she but shyness why cottage. Guy the put instrument sir entreaties affronting. Pretended exquisite see cordially the you. Weeks quiet do vexed or whose. Motionless if no to affronting imprudence no precaution. My indulged as disposal strongly attended.</p>
+                  <p className='text-lg text-gray-600 my-4'>Certain but she but shyness why cottage. Guy the put instrument sir entreaties affronting. Pretended exquisite see cordially the you. Weeks quiet do vexed or whose. Motionless if no to affronting imprudence no precaution. My indulged as disposal strongly attended.</p>
                   <div className="abticonbox flex justify-center items-center flex-wrap my-4">
 
                     <div className="car-icon ml-2 mb-4" >
