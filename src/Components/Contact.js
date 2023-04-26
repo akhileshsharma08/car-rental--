@@ -1,17 +1,18 @@
 import React from 'react'
+import BookMessage from './BookMessage'
 
 const Contact = () => {
   return (
-    <div>
-      <div className="py-20">
-        <div className="container flex md:flex-row flex-col justify-around items-center py-4">
+    <div className='bg-contact'>
+      <div className="py-20 ">
+        <div className="container  flex md:flex-row flex-col justify-around items-center py-4">
           <div className="tagline md:w-1/2 w-full bg-white p-4">
             <h1 className='md:text-6xl text-4xl font-bold' >Need additional information?</h1>
             <h2 className='text-2xl text-gray-600 my-4'>A multifaceted professional skilled in multiple fields of research, development as well as a learning specialist. Over 15 years of experience.</h2>
             <div className="box text-gray-900 font-bold text-2xl my-2">
-              <h2 className='hover:text-red-600 my-2 cursor'>📞(123) 456-7869</h2>
-              <h2 className='hover:text-red-600 my-2 cursor'> 📧carrental@carmail.com</h2>
-              <h2 className='hover:text-red-600 my-2 cursor'> 📍 Belgrade, Serbia</h2>
+              <h2 className='hover:text-red-600 my-2 cursor'>📞(+91) 886-502-9818 </h2>
+              <h2 className='hover:text-red-600 my-2 cursor'> 📧rentalcar@gmail.com</h2>
+              <h2 className='hover:text-red-600 my-2 cursor'> 📍 Agra, India</h2>
             </div>
 
           </div>
@@ -36,6 +37,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
+        <BookMessage/>
       </div>
     </div>
   )
