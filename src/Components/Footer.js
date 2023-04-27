@@ -11,7 +11,7 @@ const Footer = () => {
         <img src="../Logo.png" alt="car rental logo" width={200} height={100}/>
         {/* <span className="ml-3 text-xl font-bold ">CAR <span className='text-red-500'>RENTAL</span> </span> */}
       </a>
-      <p className="mt-2 text-lg text-gray-500 mx-2 font-bold">Quick,Easy Car Rentals</p>
+      {/* <p className="mt-2 text-lg text-gray-500 mx-2 font-bold">Quick,Easy Car Rentals</p> */}
     </div>
     <div className="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
       <div className="lg:w-1/4 md:w-1/2 w-full px-4">
