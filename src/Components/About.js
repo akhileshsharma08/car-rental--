@@ -1,10 +1,12 @@
 import React from 'react'
 import BookMessage from './BookMessage'
 import Feature from './Feature'
+import Hero from './Hero'
 
 const About = () => {
   return (
-    <div className='mt-40'>
+    <div className='mt-30'>
+      <Hero title={"about"} submenu={"about"}/>
       <div className="abtContainer container">
         <section className="text-gray-600 body-font">
           <div className="container px-5 py-24 mx-auto flex flex-wrap">

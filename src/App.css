@@ -4,18 +4,19 @@ box-sizing: border-box;
 }
 .heroimg{
     width: 100%;
-    height: 100%;
-    background-image: url('../public/heroCar.png');
+    height: 70vh;
+    background-image: url('../public/heroCar.PNG');
     background-repeat: no-repeat;
-    /* background-size: contain; */
-background-size: contain;
+    background-size: cover;
+    padding: 10px;
+/* background-size: contain; */
 /* opacity: 70% !important; */
 
 
 
 }
 .img-content{
-    background-image: url('../public//hero-bg.png');
+    background-image: url('../public/hero-bg.png');
     width: 100%;
     height: 100vh;
     /* height: 100%; */
@@ -198,7 +199,7 @@ cursor: pointer;
 .bookMessageImage{
   background-image: url('./images/banners/book-banner.png');
   width: 100%;
-  height: 50vh;
+  height: 80vh;
   background-repeat: no-repeat;
   background-size: contain;
 }

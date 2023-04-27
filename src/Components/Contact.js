@@ -1,10 +1,12 @@
 import React from 'react'
 import BookMessage from './BookMessage'
+import Hero from './Hero'
 
 const Contact = () => {
   return (
     <div className='bg-contact'>
       <div className="py-20 ">
+      <Hero title={"Contact"} submenu={"contact"}/>
         <div className="container  flex md:flex-row flex-col justify-around items-center py-4">
           <div className="tagline md:w-1/2 w-full bg-white p-4">
             <h1 className='md:text-6xl text-4xl font-bold' >Need additional information?</h1>
