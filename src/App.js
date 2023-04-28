@@ -10,7 +10,7 @@ import Footer from './Components/Footer'
 import Error from './Components/Error'
 import Login from './Components/Login'
 import Logout from './Components/Logout'
-
+import Cars from './Components/Cars';
 
 
 function App() {
@@ -24,6 +24,7 @@ function App() {
           <Route exact path="/contact" element={<Contact />}></Route>
           <Route exact path="/checkout" element={<Checkout />}></Route>
           <Route exact path="/login" element={<Login />}></Route>
+          <Route exact path="/cars" element={<Cars />}></Route>
           <Route exact path="/logout" element={<Logout />}></Route>
           <Route exact path="*" element={<Error />}></Route>
         </Routes>
