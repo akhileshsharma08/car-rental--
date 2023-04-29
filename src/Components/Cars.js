@@ -11,25 +11,7 @@ const Cars = () => {
     <div className='my-30'>
       hi akhilesh
       <Hero title={'Cars'} submenu={'cars'} />
-      {/* <div className="carimgbox container my-10  flex md:flex-row flex-col justify-center items-center">
-        {CAR_DATA.map((car) => (
-          <div className="p-2 w-full  md:w-1/3 shadow-lg m-2 text-center">
-            <img alt={car.name} className="flex-shrink-0 rounded-lg w-full md:h-42 h-62 object-contain  mb-4" src={car.img} />
-            <div className="w-full">
-              <h2 className="title-font font-medium text-lg text-gray-900">{car.name}</h2>
-              <h3 className="text-gray-600 mb-2">{car.mark}</h3>
-              <p className="mb-4 flex justify-around items-center text-gray-600"><span>{car.price}</span> <span>{car.doors}⭐</span></p>
-              <p className="mb-4 flex justify-around items-center text-gray-600"><span>{car.transmission}</span> <span>{car.fuel}</span></p>
-              <div className="i">
-                <button className='px-8 py-2 w-full bg-red-500 hover:bg-red-600 hover:shadow-lg text-white font-bold'>Book Now</button>
-              </div>
-            </div>
-          </div>
-
-        ))}
-      </div> */}
-
-
+  
       <div className="carimgbox my-10">
         <div className="container mx-auto">
           <div className="mainbocx flex justify-around md:flex-row flex-col mx-auto flex-wrap items-center">
