@@ -23,17 +23,17 @@ const Navbar = () => {
             <img src="../Logo.png" width={100} height={20} />
           </Link>
           <ul className='hidden sm:flex '>
-            <li className='p-4 rounded-md text-gray-800 hover:text-red-500 font-semibold'>
-              <Link to='/'>Home</Link>
+            <li className='p-4 rounded-md text-gray-800 hover:text-red-500 font-semibold hover:cursor-pointer'>
+              <Link to='/' className='hover:text-red-500'>Home</Link>
             </li>
-            <li className='p-4 rounded-lg text-gray-800 hover:text-red-500 font-semibold'>
-              <Link to='/cars'>Cars</Link>
+            <li className='p-4 rounded-lg text-gray-800 hover:text-red-500 font-semibold hover:cursor-pointer'>
+              <Link to='/cars' className='hover:text-red-500'>Cars</Link>
             </li>
-            <li className='p-4 rounded-lg text-gray-800 hover:text-red-500 font-semibold'>
-              <Link to='/about'>About</Link>
+            <li className='p-4 rounded-lg text-gray-800 hover:text-red-500 font-semibold hover:cursor-pointer'>
+              <Link to='/about' className='hover:text-red-500'>About</Link>
             </li>
-            <li className='p-4 rounded-lg text-gray-800 hover:text-red-500 font-semibold'>
-              <Link to='/contact'>Contact</Link>
+            <li className='p-4 rounded-lg text-gray-800 hover:text-red-500 font-semibold hover:cursor-pointer'>
+              <Link to='/contact' className='hover:text-red-500'>Contact</Link>
             </li>
             {/* {user.displayName ? <li className=' p-4 rounded-lg text-gray-800 bg-red-500 text-white hover:text-red-500 hover:bg-yellow-400 font-semibold'>
               <Link to='/login'>Log in</Link>
@@ -44,7 +44,7 @@ const Navbar = () => {
               <Link to='/login'>Log in</Link>
             </li> */}
             <div className="flex items-center">
-            <a className="inline-block mr-4 text-sm font-semibold text-black hover:text-red-500" to="#">Sign In</a>
+            <Link className="inline-block mr-4 text-sm font-semibold text-black hover:text-red-500 hover:cursor-pointer hover:text-red-500" to="#"> Sign In</Link>
             <a className="relative group inline-block py-3 px-4 text-sm font-semibold text-black hover:text-white border border-black-200 rounded-md overflow-hidden transition duration-300" to="#">
               <div className="absolute top-0 right-full w-full h-full bg-red-500 hover:text-white transform group-hover:translate-x-full group-hover:scale-102 transition duration-500"></div>
               <span className="relative">Register</span>
