@@ -5,7 +5,7 @@ box-sizing: border-box;
 .heroimg{
     width: 100%;
     height: 70vh;
-    background-image: url('../public/heroCar.PNG');
+    background-image: url('./images/heroCar.PNG');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 10px;
@@ -16,7 +16,7 @@ box-sizing: border-box;
 
 }
 .img-content{
-    background-image: url('../public/hero-bg.png');
+    background-image: url('./images/hero-bg.png');
     width: 100%;
     height: 100vh;
     /* height: 100%; */
@@ -25,7 +25,7 @@ box-sizing: border-box;
     
 }
 .boxbox{
-    background-image: url('../public/main-car.png');
+    background-image: url('./images/main-car.png');
     background-repeat: no-repeat;
     background-size: contain;
     width: 100%;
