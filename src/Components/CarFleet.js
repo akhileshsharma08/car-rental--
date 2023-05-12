@@ -6,13 +6,7 @@ import { Link } from 'react-router-dom'
 const CarFleet = () => {
     const [id, setId] = useState('')
 
-    // const HandleIdClick = (e) => {
-    //     e.preventDefault()
-    //     setId(e.target.id)
-
-
-    // }
-
+   
     return (
         <div>
             <div className="textcontainer py-20 text-center">

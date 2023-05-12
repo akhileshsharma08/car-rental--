@@ -54,11 +54,11 @@ const Testimonials = () => {
                     </Slider>
                     <div className="flex items-center mt-8">
                         <ButtonBack className="cursor-pointer " role="button" aria-label="previous slide">
-                        <BsFillArrowLeftSquareFill className='text-gray-500 text-red-500 h-6 w-6' />
+                        <BsFillArrowLeftSquareFill className=' text-red-500 h-6 w-6' />
                         </ButtonBack>
 
                         <ButtonNext role="button" aria-label="next slide" className="cursor-pointer ml-2">
-                            <BsFillArrowRightSquareFill className='text-black text-red-500 h-10 w-10'/>
+                            <BsFillArrowRightSquareFill className=' text-red-500 h-10 w-10'/>
                         </ButtonNext>
                     </div>
                 </CarouselProvider>

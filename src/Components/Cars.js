@@ -9,7 +9,6 @@ import Loader from "../images/loader.gif";
 const Cars = () => {
   const dispatch = useDispatch();
   const { data: mycars, status } = useSelector((state) => state.car);
-  // console.log(mycars, "car data")
 
   useEffect(() => {
     dispatch(fetchProducts());

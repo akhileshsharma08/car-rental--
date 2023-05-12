@@ -9,13 +9,11 @@ const Footer = () => {
     <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
       <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
         <img src="../Logo.png" alt="car rental logo" width={200} height={100}/>
-        {/* <span className="ml-3 text-xl font-bold ">CAR <span className='text-red-500'>RENTAL</span> </span> */}
       </a>
-      {/* <p className="mt-2 text-lg text-gray-500 hover:text-red-500 mx-2 font-bold">Quick,Easy Car Rentals</p> */}
     </div>
     <div className="flex-grow flex flex-wrap md:pr-20  md:text-left text-center order-first">
       <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 className="title-font font-medium text-gray-900 font-bold tracking-widest text-lg mb-3 underline">Important Link</h2>
+        <h2 className="title-font  text-gray-900 font-bold tracking-widest text-lg mb-3 underline">Important Link</h2>
         <nav className="list-none mb-10">
           <li>
             <Link to="/" className="text-gray-600 font-semibold hover:text-red-600">Home</Link>
@@ -32,7 +30,7 @@ const Footer = () => {
         </nav>
       </div>
       <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 className="title-font font-medium text-gray-900 font-bold tracking-widest text-lg mb-3 underline">Other Link</h2>
+        <h2 className="title-font  text-gray-900 font-bold tracking-widest text-lg mb-3 underline">Other Link</h2>
         <nav className="list-none mb-10">
           <li>
             <Link to="#" className="text-gray-600 font-semibold hover:text-red-600">Api Docs</Link>

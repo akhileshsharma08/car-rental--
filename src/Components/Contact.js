@@ -13,7 +13,7 @@ const Contact = () => {
             <h2 className='text-2xl text-gray-600 my-4'>A multifaceted professional skilled in multiple fields of research, development as well as a learning specialist. Over 15 years of experience.</h2>
             <div className="box text-gray-900 font-bold text-2xl my-2">
               <h2 className='hover:text-red-600 my-2 cursor'>📞(+91) 886-502-9818 </h2>
-              <h2 className='hover:text-red-600 my-2 cursor'> 📧rentalcar@gmail.com</h2>
+              <h2 className='hover:text-red-600 my-2 cursor'> 📧carrental@gmail.com</h2>
               <h2 className='hover:text-red-600 my-2 cursor'> 📍 Agra, India</h2>
             </div>
 

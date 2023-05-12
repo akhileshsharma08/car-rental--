@@ -5,7 +5,7 @@ import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import Contact from "./Components/Contact";
 import About from "./Components/About";
-import Checkout from "./Components/Checkout";
+// import Checkout from "./Components/Checkout";
 import Footer from "./Components/Footer";
 import Error from "./Components/Error";
 import Login from "./Components/Login";
@@ -24,7 +24,7 @@ function App() {
             <Route exact path="/" element={<Home />}></Route>
             <Route exact path="/about" element={<About />}></Route>
             <Route exact path="/contact" element={<Contact />}></Route>
-            <Route exact path="/checkout" element={<Checkout />}></Route>
+            {/* <Route exact path="/checkout" element={<Checkout />}></Route> */}
             <Route exact path="/login" element={<Login />}></Route>
             <Route exact path="/cars" element={<Cars />}></Route>
             <Route exact path="/logout" element={<Logout />}></Route>

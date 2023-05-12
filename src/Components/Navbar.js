@@ -35,20 +35,13 @@ const Navbar = () => {
             <li className='p-4 rounded-lg text-gray-800 hover:text-red-500 font-semibold hover:cursor-pointer'>
               <Link to='/contact' className='hover:text-red-500'>Contact</Link>
             </li>
-            {/* {user.displayName ? <li className=' p-4 rounded-lg text-gray-800 bg-red-500 text-white hover:text-red-500 hover:bg-yellow-400 font-semibold'>
-              <Link to='/login'>Log in</Link>
-            </li>:<li className=' p-4 rounded-lg text-gray-800 bg-red-500 text-white hover:text-red-500 hover:bg-yellow-400 font-semibold'>
-              <Link to='/login'>Log Out</Link>
-            </li> } */}
-            {/* <li className=' p-4 rounded-lg  text-white bg-red-500  hover:text-white hover:bg-red-600 font-semibold'>
-              <Link to='/login'>Log in</Link>
-            </li> */}
+
             <div className="flex items-center">
-            <Link className="inline-block mr-4 text-sm font-semibold text-black hover:text-red-500 hover:cursor-pointer hover:text-red-500" to="#"> Sign In</Link>
-            <a className="relative group inline-block py-3 px-4 text-sm font-semibold text-black hover:text-white border border-black-200 rounded-md overflow-hidden transition duration-300" to="#">
+            <Link className="inline-block mr-4 text-sm font-semibold text-black  hover:cursor-pointer hover:text-red-500" to="#"> Sign In</Link>
+            <Link className="relative group inline-block py-3 px-4 text-sm font-semibold text-black hover:text-white border border-black-200 rounded-md overflow-hidden transition duration-300" to="/">
               <div className="absolute top-0 right-full w-full h-full bg-red-500 hover:text-white transform group-hover:translate-x-full group-hover:scale-102 transition duration-500"></div>
               <span className="relative">Register</span>
-            </a>
+            </Link>
           </div>
           </ul>
 
