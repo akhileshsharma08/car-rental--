@@ -16,11 +16,11 @@ const Navbar = () => {
 
       <div className='fixed left-0 top-0 w-full z-10 ease-in duration-300 mb-10  '>
         <div className="saleoffer bg-blue-500 text-white text-center py-2">
-          <h5>Register Now And get  <span className='text-gray-800 font-bold'>10% Discount</span>  <span> 📞+91 8865029XXXX</span></h5>
+          <h6>Register Now And get  <span className='text-gray-800 font-bold'>10% Discount</span>  <span> 📞+91 8865029XXXX</span></h6>
         </div>
         <div className=' m-auto flex justify-between items-center p-2 text-gray-800 bg-white shadow-lg ' >
           <Link to='/'>
-            <img src="../Logo.png" width={100} height={20} />
+            <img src="../Logo.png" width={120} height={20} />
           </Link>
           <ul className='hidden sm:flex '>
             <li className='p-4 rounded-md text-gray-800 hover:text-red-500 font-semibold hover:cursor-pointer'>

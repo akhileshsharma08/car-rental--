@@ -19,7 +19,7 @@ import Q7 from "../../images/cars-big/Q7.jpeg";
 export const CAR_DATA = [
   {
     name: "VW Golf 6",
-    price: "37",
+    price: "83",
     img: Golf6,
     model: "Golf 6",
     mark: "Volkswagen",
@@ -32,7 +32,7 @@ export const CAR_DATA = [
   },
   {
     name: "Audi A1 S-Line",
-    price: "45",
+    price: "55",
     img: AudiA1,
     model: "Audi",
     mark: "A1",
@@ -45,7 +45,7 @@ export const CAR_DATA = [
   },
   {
     name: "Toyota Camry",
-    price: "30",
+    price: "60",
     img: Toyota,
     model: "Camry",
     mark: "Toyota",
@@ -58,7 +58,7 @@ export const CAR_DATA = [
   },
   {
     name: "BMW 320 ",
-    price: "35",
+    price: "95",
     img: Bmw320,
     model: "320",
     mark: "BMW",
@@ -84,7 +84,7 @@ export const CAR_DATA = [
   },
   {
     name: "VW Passat CC",
-    price: "25",
+    price: "75",
     img: Passat,
     model: "Passat CC",
     mark: "Volkswagen",
@@ -102,7 +102,7 @@ export const CAR_DATA = [
     car_color: "Red",
     year: '2010',
     vin: "WAUNE78P18A342660",
-    price: "$39",
+    price: "139",
     availability: true,
       doors: "4/5",
     transmission: "Manual",
@@ -117,7 +117,7 @@ export const CAR_DATA = [
     car_color: "Pink",
     year: 2012,
     vin: "WA1WYBFE2AD448505",
-    price: "$41",
+    price: "94",
     availability: true,
       doors: "4/5",
     transmission: "Automatic",
@@ -132,7 +132,7 @@ export const CAR_DATA = [
     car_color: "Aquamarine",
     year: 1989,
     vin: "4A4AP3AU8FE713946",
-    price: "$33",
+    price: "133",
     availability: true,
       doors: "4/5",
     transmission: "Automatic",
@@ -147,7 +147,7 @@ export const CAR_DATA = [
     car_color: "Red",
     year: 2012,
     vin: "WAUHGBFC9DN768366",
-    price: "$23",
+    price: "123",
     availability: true,
       doors: "4/5",
     transmission: "Automatic",
@@ -162,7 +162,7 @@ export const CAR_DATA = [
     car_color: "Green",
     year: 2006,
     vin: "WA1AV74L67D649365",
-    price: "$42",
+    price: "142",
     availability: false,
       doors: "4/5",
     transmission: "Manual",
@@ -177,7 +177,7 @@ export const CAR_DATA = [
     car_color: "Teal",
     year: 1996,
     vin: "1FMJK2A5XAE576485",
-    price: "$18",
+    price: "118",
     availability: true,
       doors: "4/5",
     transmission: "Automatic",
@@ -192,7 +192,7 @@ export const CAR_DATA = [
     car_color: "Pink",
     year: 2003,
     vin: "WAUVC68E02A369838",
-    price: "$56",
+    price: "256",
     availability: true,
       doors: "4/5",
     transmission: "Automatic",
@@ -207,7 +207,7 @@ export const CAR_DATA = [
     car_color: "Mauv",
     year: 2012,
     vin: "WA1YD54B63N613712",
-    price: "$27",
+    price: "127",
     availability: true,
       doors: "4/5",
     transmission: "Manual",
@@ -222,7 +222,7 @@ export const CAR_DATA = [
     car_color: "Turquoise",
     year: 1999,
     vin: "WAUMF98P66A420495",
-    price: "$23",
+    price: "223",
     availability: true,
       doors: "4/5",
     transmission: "Automatic",
@@ -237,7 +237,7 @@ export const CAR_DATA = [
     car_color: "Mauv",
     year: 2002,
     vin: "WAUUL58E15A338821",
-    price: "$28",
+    price: "128",
     availability: true,
       doors: "4/5",
     transmission: "Manual",
@@ -246,7 +246,7 @@ export const CAR_DATA = [
   },
 ];
 
-export const FleetCAR_DATA = [
+export const data = [
   {
     name: "VW Golf 6",
     price: "37",
@@ -327,7 +327,7 @@ export const FleetCAR_DATA = [
   }
 ];
 
-export const defaultCar=[
+export const defaultCar=
   {
     name: "VW Golf 6",
     price: "37",
@@ -341,6 +341,6 @@ export const defaultCar=[
     fuel: "Diesel",
     id: '1'
   }
-]
+
 
 

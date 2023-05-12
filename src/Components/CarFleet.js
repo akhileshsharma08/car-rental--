@@ -1,18 +1,17 @@
-import React, { useEffect, useState } from 'react'
-import { FleetCAR_DATA } from '../assets/data/Cars_data'
+import React, {  useState } from 'react'
+import { data } from '../assets/data/Cars_data'
 import Cartbox from './Carbox'
 import { Link } from 'react-router-dom'
 
 const CarFleet = () => {
-    console.log(FleetCAR_DATA, "hjjh")
     const [id, setId] = useState('')
 
-    const HandleIdClick = (e) => {
-        e.preventDefault()
-        setId(e.target.id)
+    // const HandleIdClick = (e) => {
+    //     e.preventDefault()
+    //     setId(e.target.id)
 
 
-    }
+    // }
 
     return (
         <div>
@@ -24,8 +23,8 @@ const CarFleet = () => {
             <div className="carbox flex justify-around items-center  ">
                 <div className="listboxx w-1/4 mx-2 mb-2">
                     <ul>
-                        {FleetCAR_DATA.map((car) => (
-                            <Link onClick={() => setId(car.id)} key={car.id}> <li className='text-lg font-bold bg-gray-200 mb-2  hover:text-black hover:bg-red-500 border-b border-gray-100 py-3 text-center'>{car.name}</li></Link>
+                        {data.map((car) => (
+                            <Link onClick={() => {setId(car.id); console.log(car.id)}} key={car.id}> <li className='text-lg font-bold bg-gray-200 mb-2  hover:text-black hover:bg-red-500 border-b border-gray-100 py-3 text-center'>{car.name}</li></Link>
                         ))}
                     </ul>
                 </div>
