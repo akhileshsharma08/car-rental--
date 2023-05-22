@@ -61,12 +61,12 @@ const Navbar = () => {
               : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'
           }>
             <ul >
-              <li onClick={HandleNav} className=' text-4xl text-white hover:text-gray-800 p-2 '>
-                <Link to='/'>Home </Link>
-              </li>
-              <li onClick={HandleNav} className=' text-4xl text-white hover:text-gray-800 p-2 '>
-                <Link to='/cars'>Cars</Link>
-              </li>
+             <Link to='/'> <li onClick={HandleNav} className=' text-4xl text-white hover:text-gray-800 p-2 '>
+                Home 
+              </li></Link>
+             <Link to='/cars'> <li onClick={HandleNav} className=' text-4xl text-white hover:text-gray-800 p-2 '>
+                Cars
+              </li></Link>
             <Link to='/about'>  <li onClick={HandleNav} className=' text-4xl text-white hover:text-gray-800 p-2 '>
                 About
               </li></Link>
@@ -74,9 +74,9 @@ const Navbar = () => {
                 Contact
               </li></Link>
 
-              <li onClick={HandleNav} className=' text-4xl text-white hover:text-gray-800 p-2 '>
-                <Link to='/'>Log in</Link>
-              </li>
+             <Link to='/'> <li onClick={HandleNav} className=' text-4xl text-white hover:text-gray-800 p-2 '>
+                Log in
+              </li></Link>
 
 
             </ul>
